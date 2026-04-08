@@ -4,7 +4,7 @@ Este repositório contém um projeto desenvolvido para a disciplina de **Program
 
 ## **📋 Sobre o Projeto**
 
-O projeto componentesGuigui-chan foca na criação de componentes de tela reutilizáveis e customizáveis. Através da classe Tela, é possível instanciar janelas que facilitam a coleta de dados, exibição de mensagens e interação com o usuário através de diversos elementos gráficos.
+O projeto componentesGuigui-chan foca na criação de componentes de tela reutilizáveis e customizáveis. Através da classe telas.Tela, é possível instanciar janelas que facilitam a coleta de dados, exibição de mensagens e interação com o usuário através de diversos elementos gráficos.
 
 ### **Funcionalidades principais:**
 
@@ -21,7 +21,7 @@ O projeto componentesGuigui-chan foca na criação de componentes de tela reutil
 ## **📂 Estrutura do Código**
 
 * Principal.java: Ponto de entrada da aplicação que demonstra a inicialização de uma janela de coleta de dados.  
-* Tela.java: A classe "mestra" que estende JFrame, contendo a lógica de montagem dos painéis, botões, checkboxes e layouts.
+* telas.Tela.java: A classe "mestra" que estende JFrame, contendo a lógica de montagem dos painéis, botões, checkboxes e layouts.
 
 ## **🚀 Como Executar**
 
@@ -37,7 +37,7 @@ O projeto componentesGuigui-chan foca na criação de componentes de tela reutil
 
 No código atual, a classe Principal demonstra como criar uma tela de entrada simples:
 
-Tela recolherAnoNascimento \= new Tela("Ano de nascimento:", "Digite seu ano de nascimento aqui.");  
+telas.Tela recolherAnoNascimento \= new telas.Tela("Ano de nascimento:", "Digite seu ano de nascimento aqui.");  
 recolherAnoNascimento.configurarJanela("Atividade 1", 500, 500, 466, 266);
 
 ## **👤 Autor**
